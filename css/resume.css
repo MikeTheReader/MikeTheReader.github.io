@@ -1,0 +1,47 @@
+.colorScheme {
+    color: #D7CEC7;
+    color: #565656;
+    color: #76323F;
+    color: #C09F80;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    clear: both;
+}
+
+.header__name {
+    font-size: 3em;
+    font-weight: bold;
+    color: #565656;
+}
+
+.header__photo > img {
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #666;
+    float: left;
+    margin-right: 10px;
+}
+
+.experience {
+    clear: both;
+}
+
+.employer_heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    background: #76323F;
+    color: #D7CEC7;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.employer__title {
+    font-weight: bold;
+}
+
