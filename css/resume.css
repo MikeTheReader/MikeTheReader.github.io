@@ -7,28 +7,36 @@
 
 body {
     font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
+    text-align: center;
     font-family: 'Oswald', sans-serif;
-    clear: both;
+    width: 100%;
+    background: #565656;
+    color: #D7CEC7;
 }
 
 .header__name {
     font-size: 3em;
     font-weight: bold;
-    color: #565656;
+    margin-top: -25px;
 }
 
 .header__photo > img {
     border-radius: 50%;
-    box-shadow: 3px 3px 3px #666;
-    float: left;
-    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .experience {
     clear: both;
+    text-align: center;
+    margin-top: -25px;
+    background: white;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .employer_heading {
@@ -39,6 +47,10 @@ body {
     color: #D7CEC7;
     padding: 5px;
     border-radius: 3px;
+}
+
+.employer__description {
+    text-align: left;
 }
 
 .employer__title {
